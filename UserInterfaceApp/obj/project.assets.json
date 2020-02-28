@@ -563,11 +563,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vladi\\Documents\\GitHub\\UserInterfaceApp\\UserInterfaceApp\\UserInterfaceApp.csproj",
+      "projectUniqueName": "C:\\Users\\vladi\\Documents\\GitHub\\ContactApp\\UserInterfaceApp\\UserInterfaceApp.csproj",
       "projectName": "UserInterfaceApp",
-      "projectPath": "C:\\Users\\vladi\\Documents\\GitHub\\UserInterfaceApp\\UserInterfaceApp\\UserInterfaceApp.csproj",
+      "projectPath": "C:\\Users\\vladi\\Documents\\GitHub\\ContactApp\\UserInterfaceApp\\UserInterfaceApp.csproj",
       "packagesPath": "C:\\Users\\vladi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vladi\\Documents\\GitHub\\UserInterfaceApp\\UserInterfaceApp\\obj\\",
+      "outputPath": "C:\\Users\\vladi\\Documents\\GitHub\\ContactApp\\UserInterfaceApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

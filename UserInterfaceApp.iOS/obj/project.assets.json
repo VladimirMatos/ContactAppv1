@@ -1012,11 +1012,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vladi\\Documents\\GitHub\\UserInterfaceApp\\UserInterfaceApp.iOS\\UserInterfaceApp.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\vladi\\Documents\\GitHub\\ContactApp\\UserInterfaceApp.iOS\\UserInterfaceApp.iOS.csproj",
       "projectName": "UserInterfaceApp.iOS",
-      "projectPath": "C:\\Users\\vladi\\Documents\\GitHub\\UserInterfaceApp\\UserInterfaceApp.iOS\\UserInterfaceApp.iOS.csproj",
+      "projectPath": "C:\\Users\\vladi\\Documents\\GitHub\\ContactApp\\UserInterfaceApp.iOS\\UserInterfaceApp.iOS.csproj",
       "packagesPath": "C:\\Users\\vladi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vladi\\Documents\\GitHub\\UserInterfaceApp\\UserInterfaceApp.iOS\\obj\\",
+      "outputPath": "C:\\Users\\vladi\\Documents\\GitHub\\ContactApp\\UserInterfaceApp.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1037,8 +1037,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\vladi\\Documents\\GitHub\\UserInterfaceApp\\UserInterfaceApp\\UserInterfaceApp.csproj": {
-              "projectPath": "C:\\Users\\vladi\\Documents\\GitHub\\UserInterfaceApp\\UserInterfaceApp\\UserInterfaceApp.csproj"
+            "C:\\Users\\vladi\\Documents\\GitHub\\ContactApp\\UserInterfaceApp\\UserInterfaceApp.csproj": {
+              "projectPath": "C:\\Users\\vladi\\Documents\\GitHub\\ContactApp\\UserInterfaceApp\\UserInterfaceApp.csproj"
             }
           }
         }

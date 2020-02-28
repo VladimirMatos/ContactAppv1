@@ -21,17 +21,17 @@ namespace UserInterfaceApp.Views
         private void TapGestureRecognizer_Tapped_Edit(object sender, EventArgs e)
         {
             TappedEventArgs tappedEventArgs = (TappedEventArgs)e;
-            Contact employee = ((ContactListViewModel)BindingContext).Contacts.Where(emp => emp.Phone == (int)tappedEventArgs.Parameter).FirstOrDefault();
+            Contact contact = ((ContactListViewModel)BindingContext).Contacts.Where(emp => emp.Phone == (int)tappedEventArgs.Parameter).FirstOrDefault();
 
-            Navigation.PushAsync(new AddContactPage(employee));
+            Navigation.PushAsync(new AddContactPage(contact));
         }
 
         private void TapGestureRecognizer_Tapped_Remove(object sender, EventArgs e)
         {
             TappedEventArgs tappedEventArgs = (TappedEventArgs)e;
-            Contact employee = ((ContactListViewModel)BindingContext).Contacts.Where(emp => emp.Phone == (int)tappedEventArgs.Parameter).FirstOrDefault();
+            Contact contact = ((ContactListViewModel)BindingContext).Contacts.Where(emp => emp.Phone == (int)tappedEventArgs.Parameter).FirstOrDefault();
 
-            ((ContactListViewModel)BindingContext).Contacts.Remove(employee);
+            ((ContactListViewModel)BindingContext).Contacts.Remove(contact);
         }
 
         private void ListView_ItemSelected(object sender, SelectedItemChangedEventArgs e)

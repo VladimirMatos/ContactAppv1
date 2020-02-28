@@ -2006,11 +2006,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vladi\\Documents\\GitHub\\UserInterfaceApp\\UserInterfaceApp.Android\\UserInterfaceApp.Android.csproj",
+      "projectUniqueName": "C:\\Users\\vladi\\Documents\\GitHub\\ContactApp\\UserInterfaceApp.Android\\UserInterfaceApp.Android.csproj",
       "projectName": "UserInterfaceApp.Android",
-      "projectPath": "C:\\Users\\vladi\\Documents\\GitHub\\UserInterfaceApp\\UserInterfaceApp.Android\\UserInterfaceApp.Android.csproj",
+      "projectPath": "C:\\Users\\vladi\\Documents\\GitHub\\ContactApp\\UserInterfaceApp.Android\\UserInterfaceApp.Android.csproj",
       "packagesPath": "C:\\Users\\vladi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vladi\\Documents\\GitHub\\UserInterfaceApp\\UserInterfaceApp.Android\\obj\\",
+      "outputPath": "C:\\Users\\vladi\\Documents\\GitHub\\ContactApp\\UserInterfaceApp.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2031,8 +2031,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\vladi\\Documents\\GitHub\\UserInterfaceApp\\UserInterfaceApp\\UserInterfaceApp.csproj": {
-              "projectPath": "C:\\Users\\vladi\\Documents\\GitHub\\UserInterfaceApp\\UserInterfaceApp\\UserInterfaceApp.csproj"
+            "C:\\Users\\vladi\\Documents\\GitHub\\ContactApp\\UserInterfaceApp\\UserInterfaceApp.csproj": {
+              "projectPath": "C:\\Users\\vladi\\Documents\\GitHub\\ContactApp\\UserInterfaceApp\\UserInterfaceApp.csproj"
             }
           }
         }
