@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:local="clr-namespace:UserInterfaceApp"
+             mc:Ignorable="d"
+             x:Class="UserInterfaceApp.Views.AddContactPage">
+    
+    <ContentPage.BindingContext>
+        <local:AddContactViewModel/>
+    </ContentPage.BindingContext>
+    
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry Placeholder="FirstName" Text="{Binding Contact.FirstName}"></Entry>
+            <Entry Placeholder="LasName" Text="{Binding Contact.LastName}"></Entry>
+            <Entry Placeholder="Phone" Text="{Binding Contact.Phone}"></Entry>
+
+            <Button Text="save" Clicked="Button_Clicked"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
